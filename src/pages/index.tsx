@@ -1,18 +1,12 @@
-import AboutUs from 'components/AboutUs'
 import Footer from 'components/Footer'
 import Header from 'components/Header'
-import HeaderCarousel from 'components/HeaderCarousel'
-import TopCryptos from 'components/TopCryptos'
-import Subscribe from 'components/Subscribe'
+import LogoContainer from 'components/LogoContainer'
 
 export default function Home() {
   return (
     <>
       <Header />
-      <HeaderCarousel />
-      <AboutUs />
-      <TopCryptos />
-      <Subscribe />
+      <LogoContainer />
       <Footer />
     </>
   )
