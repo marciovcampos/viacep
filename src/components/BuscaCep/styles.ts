@@ -18,3 +18,21 @@ export const Button = styled(ButtonComponet)`
   background-color: #149e55;
   width: 5rem;
 `
+
+export const FormContainer = styled.form`
+  display: block;
+  align-items: center;
+  justify-content: center;
+`
+export const Text = styled.label`
+  align-content: center;
+  font-size: ${theme.font.sizes.regular.h5};
+  color: ${theme.colors.primary};
+`
+
+export const Input = styled.input`
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0.25rem;
+  height: 1.5rem;
+`

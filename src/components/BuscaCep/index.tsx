@@ -23,31 +23,33 @@ function BuscaCep() {
     <Container>
       <S.BuscaCepContainer>
         <S.Title>ViaCep</S.Title>
-        <div>
-          <label>CEP: </label>
-          <input
-            name="cep"
-            {...register('cep')}
-            onBlur={getCEP}
-            placeholder="00000-000"
-          />
-        </div>
-        <div>
-          <label>Logradouro: </label>
-          <input name="logradouro" {...register('logradouro')} />
-        </div>
-        <div>
-          <label>Bairro: </label>
-          <input name="bairro" {...register('bairro')} />
-        </div>
-        <div>
-          <label>Cidade: </label>
-          <input name="cidade" {...register('cidade')} />
-        </div>
-        <div>
-          <label>Estado: </label>
-          <input name="estado" {...register('estado')} />
-        </div>
+        <S.FormContainer>
+          <div>
+            <S.Text>CEP: </S.Text>
+            <S.Input
+              name="cep"
+              {...register('cep')}
+              onBlur={getCEP}
+              placeholder="00000-000"
+            />
+          </div>
+          <div>
+            <S.Text>Logradouro: </S.Text>
+            <S.Input name="logradouro" {...register('logradouro')} />
+          </div>
+          <div>
+            <S.Text>Bairro:</S.Text>
+            <S.Input name="bairro" {...register('bairro')} />
+          </div>
+          <div>
+            <S.Text>Cidade:</S.Text>
+            <S.Input name="cidade" {...register('cidade')} />
+          </div>
+          <div>
+            <S.Text>Estado:</S.Text>
+            <S.Input name="estado" {...register('estado')} />
+          </div>
+        </S.FormContainer>
       </S.BuscaCepContainer>
     </Container>
   )
