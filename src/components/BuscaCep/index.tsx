@@ -27,7 +27,6 @@ function BuscaCep() {
           <div>
             <S.Text>CEP: </S.Text>
             <S.Input
-              name="cep"
               data-testid="cep"
               {...register('cep')}
               onBlur={getCEP}
@@ -36,19 +35,19 @@ function BuscaCep() {
           </div>
           <div>
             <S.Text>Logradouro: </S.Text>
-            <S.Input name="logradouro" {...register('logradouro')} />
+            <S.Input {...register('logradouro')} />
           </div>
           <div>
             <S.Text>Bairro:</S.Text>
-            <S.Input name="bairro" {...register('bairro')} />
+            <S.Input {...register('bairro')} />
           </div>
           <div>
             <S.Text>Cidade:</S.Text>
-            <S.Input name="cidade" {...register('cidade')} />
+            <S.Input {...register('cidade')} />
           </div>
           <div>
             <S.Text>Estado:</S.Text>
-            <S.Input name="estado" {...register('estado')} />
+            <S.Input {...register('estado')} />
           </div>
         </S.FormContainer>
       </S.BuscaCepContainer>
