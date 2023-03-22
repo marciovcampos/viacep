@@ -1,12 +1,12 @@
-![CI/CD](https://github.com/marciovcampos/coinsynch/actions/workflows/main.yml/badge.svg)
+![CI/CD](https://github.com/marciovcampos/viacep/actions/workflows/main.yml/badge.svg)
 
-What is the CoinSynch?
+What is the ViaCep?
 =====================
 
-CoinSynch is a frontend challege with TypeScript, React, NextJS and Styled Components
+ViaCep is a frontend challege with TypeScript, React, NextJS and Styled Components
 
 ## Give a Star! :star:
-If you liked the project or if CoinSynch helped you, please give a star ;)
+If you liked the project or if ViaCep helped you, please give a star ;)
 
 ## What is inside?
 
@@ -45,8 +45,8 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Live Demo
-A live demo is available in [https://coinsynch.vercel.app/](https://coinsynch.vercel.app/) .
+A live demo is available in [https://viacep-nine.vercel.app/](https://viacep-nine.vercel.app/) .
 
 
 ## About:
-CoinSynch was developed by [Márcio Vinícius](https://github.com/marciovcampos).
+ViaCep was developed by [Márcio Vinícius](https://github.com/marciovcampos).
