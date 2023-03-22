@@ -12,3 +12,10 @@ export const Title = styled.h3`
   text-align: center;
   margin-bottom: 3rem;
 `
+
+export const Text = styled.h5`
+  color: ${theme.colors.textBase};
+  font-size: ${theme.font.sizes.bold.h3};
+  text-align: center;
+  margin-bottom: 3rem;
+`

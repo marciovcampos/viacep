@@ -7,6 +7,7 @@ function Crud() {
     <Container>
       <S.CrudContainer>
         <S.Title>Crud</S.Title>
+        <S.Text>work in progress...</S.Text>
       </S.CrudContainer>
     </Container>
   )
