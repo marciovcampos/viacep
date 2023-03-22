@@ -7,7 +7,7 @@ import * as S from './styles'
 function BuscaCep() {
   const { register, setValue } = useForm()
 
-  const getCEP = (e) => {
+  const getCEP = (e: { target: { value: string } }) => {
     const cep = e.target.value.replace(/\D/g, '')
     console.log(cep)
     axios.get(`http://viacep.com.br/ws/${cep}/json`).then((response) => {
@@ -28,6 +28,7 @@ function BuscaCep() {
             <S.Text>CEP: </S.Text>
             <S.Input
               name="cep"
+              data-testid="cep"
               {...register('cep')}
               onBlur={getCEP}
               placeholder="00000-000"
